@@ -7,7 +7,7 @@
         fclose($fd);
     }
     $fd2=fopen('counter.txt','w');
-    $countador=$countador+1;
+    $contador=$contador+1;
     fwrite($fd2,$contador);
     fclose($fd2);
     echo $contador;
