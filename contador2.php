@@ -8,4 +8,5 @@
     }
     $_SESSION['num']=++$num;
 
+    echo $num2;
 ?>
